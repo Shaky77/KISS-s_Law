@@ -2,7 +2,17 @@
 Weiwen's Law (KISS's Law) - Core Implementation
 ================================================
 
-A structured framework for AI causal reasoning and decision validation.
+    *** AUXILIARY REFERENCE CODE ONLY ***
+
+The complete system rules, multi-domain recursion, and intrinsic risk control
+mechanism are fully contained within the three architecture diagrams in /maps.
+This simplified code only implements core formula calculation and basic audit/projection.
+It does NOT cover all recursive and multi-domain rules shown in the diagrams.
+
+Native recommended usage:
+    Feed the diagrams directly to your AI. No code required.
+
+---
 
 Core Formula: M = (R × S) / (D × H)
 
