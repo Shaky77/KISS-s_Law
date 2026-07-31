@@ -20,6 +20,16 @@ M = (R × S) / (D × H)
 | **H** | Lever | Observable action intensity (subjective choice) |
 | **M** | Steady-state Outcome | Auditable & projectable result |
 
+## Two Usage Modes
+
+**Mode 1: Native Mode (Recommended)**
+Directly feed the three architecture diagrams under `/maps` to your AI. No manual comprehension required. The full system logic is contained in the diagrams. This mode works independently without code.
+
+**Mode 2: Auxiliary Code Mode**
+The sample code (`weiwen_law.py` and `demo.py`) implements simplified numerical calculation of the core formula. It is a reference demonstration only and does NOT cover all recursive and multi-domain rules in the diagrams.
+
+You can choose either mode independently.
+
 ## Three Core Diagrams
 
 | # | Diagram | Purpose |
