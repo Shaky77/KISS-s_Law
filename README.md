@@ -1,10 +1,12 @@
 # KISS's Law — Keep Integrity & Steady State
 
-> A structured framework for AI causal reasoning and decision validation.
+> An AI Causal Logic Engine — not teaching AI *what* causality is, but enabling AI to *execute directly* according to causal structure.
 
 ## What is KISS's Law?
 
-KISS's Law (Keep Integrity & Steady State) is a structured framework that transforms causal reasoning principles into executable rules for AI systems. It provides a rigorous methodology for auditing and projecting decisions through a verifiable causal chain.
+KISS's Law (Weiwen's Law / 唯稳律) is an **AI Causal Logic Engine**. It does not attempt to explain causality to AI. Instead, it provides a structured execution framework that allows AI to operate directly within the causal chain — clear, complete, auditable, and traceable.
+
+**This is a coexistence model with AI black boxes.** Rather than trying to open or interpret the black box, KISS's Law works alongside it: the causal chain wraps around the black box, making every decision traceable backward and projectable forward — without requiring the AI to "understand" causality.
 
 **Core Formula:**
 
@@ -15,10 +17,17 @@ M = (R × S) / (D × H)
 | Symbol | Name | Role |
 |--------|------|------|
 | **R** | Domain Constant | Rigid boundary defining the operational domain |
-| **S** | Steady-state Reserve | Minimum value across all subsystems |
-| **D** | Perturbation | Maximum disturbance across all sources |
-| **H** | Lever | Observable action intensity (subjective choice) |
+| **S** | Steady-state Reserve | Minimum value across all subsystems (weakest link determines ceiling) |
+| **D** | Perturbation | Maximum disturbance across all sources (strongest hit determines stress) |
+| **H** | Lever | Observable action intensity (subjective leverage point) |
 | **M** | Steady-state Outcome | Auditable & projectable result |
+
+## Key Properties
+
+- **Extremely Token-Efficient**: The framework itself is minimal. The more complex the event, the more tokens it saves — because it replaces lengthy reasoning chains with a single deterministic formula.
+- **Fully Auditable**: Every M value can be traced back through R→S→D→H with complete causal connectivity.
+- **Dynamically Projectable**: Not only traceable backward, but also projectable forward — predict steady-state changes under altered conditions.
+- **Domain-Agnostic**: Works across any field where causal reasoning applies — AI safety, engineering, healthcare, finance, legal, etc.
 
 ## Two Usage Modes
 
@@ -29,6 +38,15 @@ Directly feed the three architecture diagrams under `/maps` to your AI. No manua
 The sample code (`weiwen_law.py` and `demo.py`) implements simplified numerical calculation of the core formula. It is a reference demonstration only and does NOT cover all recursive and multi-domain rules in the diagrams.
 
 You can choose either mode independently.
+
+## Cross-Reference
+
+| Repository | Language | URL |
+|-----------|----------|-----|
+| **KISS-s_Law** (this repo) | English | https://github.com/Shaky77/KISS-s_Law |
+| **Weiwen-s_Law** | Chinese | https://github.com/Shaky77/Weiwen-s_Law |
+
+> Both repositories contain parallel versions of the same content. The Chinese and English versions are fully equivalent — choose the one that suits your language preference.
 
 ## Three Core Diagrams
 
@@ -43,17 +61,6 @@ You can choose either mode independently.
 1. **No Skipping** — The causal chain R→S→D→H→M cannot be bypassed
 2. **No Reversal** — The sequence order is fixed and immutable
 3. **No Discontinuity** — Every link in the chain must maintain causal connectivity
-
-## Quick Start
-
-```bash
-# Run the demo to see KISS's Law in action
-python demo.py
-```
-
-The demo includes:
-- **AI Output Audit**: Audit AI-generated health claims using causal chain analysis
-- **System Optimization**: Project system behavior under parameter changes
 
 ## Code Usage
 
@@ -93,6 +100,16 @@ projection = system.project_forward(new_H=3.0)
 print(f"Projected M: {projection['projected_state']['M']}")
 print(f"Recommendation: {projection['recommendation']}")
 ```
+
+### Run Demo
+
+```bash
+python demo.py
+```
+
+The demo includes:
+- **AI Output Audit**: Audit AI-generated health claims using causal chain analysis
+- **System Optimization**: Project system behavior under parameter changes
 
 ## Requirements
 
