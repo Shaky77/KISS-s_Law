@@ -2,6 +2,18 @@
 Demo: Using Weiwen's Law to Audit AI Output
 ============================================
 
+    *** AUXILIARY REFERENCE CODE ONLY ***
+
+The complete system rules are fully contained within the three architecture
+diagrams in /maps. This demo only demonstrates basic formula calculation
+and audit/projection — it does NOT cover all recursive and multi-domain
+rules shown in the diagrams.
+
+Native recommended usage:
+    Feed the diagrams directly to your AI. No code required.
+
+---
+
 This demo shows how to use Weiwen's Law framework to audit AI-generated content
 and identify causal integrity issues.
 
@@ -215,8 +227,11 @@ def project_system_changes():
     print("INSIGHT:")
     print("  - Strengthening weakest component (S) had the largest impact")
     print("  - Reducing disturbance (D) also helped significantly")
-    print("  - Increasing control effort (H) actually REDUCED M")
-    print("    (because H is in denominator - more effort = less stability)")
+    print("  - Increasing control effort (H) reduced M in this scenario")
+    print("    This does NOT mean control effort is useless.")
+    print("    Excessive or inefficient balancing leverage consumes system resources,")
+    print("    which suppresses overall steady-state outcome under fixed conditions.")
+    print("    H is the subjective leverage point — efficient use matters, not raw intensity.")
     print()
     print("  This demonstrates the formula's predictive power:")
     print("  M = (R × S) / (D × H)")
