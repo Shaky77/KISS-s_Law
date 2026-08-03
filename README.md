@@ -116,6 +116,29 @@ The demo includes:
 - Python 3.8+
 - No external dependencies (pure Python)
 
+## Interactive App
+
+A web-based tool that uses Weiwen's Law framework to analyze claims, decisions, and systems through structured causal reasoning.
+
+### Quick Start
+
+```bash
+pip install gradio openai
+python app.py
+```
+
+Then open **http://127.0.0.1:7860** in your browser.
+
+### Features
+- **Causal Analysis Mode**: Submit a claim, decision, or system → get structured R→S→D→H→M analysis
+- **Free Chat Mode**: Chat with an AI that reasons through Weiwen's Law framework
+- **Multi-Provider**: Supports OpenAI, DeepSeek, Qwen, SiliconFlow, and any OpenAI-compatible API
+- **Zero Cost**: Uses your own API key, no backend server needed
+
+### Requirements
+- Python 3.8+
+- An API key from any supported LLM provider
+
 ## Academic Citation & Copyright
 
 **Copyright © 2026 Xia Qi (夏祺). All rights reserved.**
