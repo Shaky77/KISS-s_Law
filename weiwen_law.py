@@ -1,5 +1,9 @@
 """
 Weiwen's Law (KISS's Law) - Core Implementation
+
+Copyright (c) 2026 Xia Qi (夏祺). All rights reserved.
+Software Copyright Registration No.: 2026SR0748746
+ORCID: https://orcid.org/0009-0002-1433-6982
 ================================================
 
     *** AUXILIARY REFERENCE CODE ONLY ***
