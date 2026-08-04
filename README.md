@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/github/license/Shaky77/KISS-s_Law)](LICENSE)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--1433--6982-brightgreen)](https://orcid.org/0009-0002-1433-6982)
+
 # KISS's Law — Keep Integrity & Steady State
 
 > An AI Causal Logic Engine — not teaching AI *what* causality is, but enabling AI to *execute directly* according to causal structure.
