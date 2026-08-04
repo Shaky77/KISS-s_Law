@@ -130,7 +130,7 @@ pip install gradio openai
 python app.py
 ```
 
-Then open **http://127.0.0.1:7860** in your browser.
+Then open **`http://127.0.0.1:7860`** in your browser.
 
 ### Features
 - **Causal Analysis Mode**: Submit a claim, decision, or system → get structured R→S→D→H→M analysis
