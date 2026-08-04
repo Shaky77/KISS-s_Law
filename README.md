@@ -159,3 +159,9 @@ Network use constitutes distribution — derivative works must be open-sourced u
 
 - **Email**: `563003@qq.com`
 - **GitHub**: [Shaky77](https://github.com/Shaky77)
+
+## FAQ
+
+See [FAQ.md](FAQ.md) for frequently asked questions covering basic concepts, adversarial defense scenarios, cognitive aspects, and open-source usage guidelines.
+
+> Source: Multi-round adversarial simulation exercises (AI jailbreaking, rogue AI, progressive infiltration, fake S-increment deception, parallel theory substitution, collective cognitive siege, etc.)
