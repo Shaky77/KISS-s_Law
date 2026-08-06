@@ -177,3 +177,17 @@ Network use constitutes distribution — derivative works must be open-sourced u
 See [FAQ.md](FAQ.md) for frequently asked questions covering basic concepts, adversarial defense scenarios, cognitive aspects, and open-source usage guidelines.
 
 > Source: Multi-round adversarial simulation exercises (AI jailbreaking, rogue AI, progressive infiltration, fake S-increment deception, parallel theory substitution, collective cognitive siege, etc.)
+
+
+## License (Dual Coverage)
+
+This repository uses a **dual-license** model:
+
+| Content Type | License |
+|-------------|---------|
+| **Code files** (.py) | [AGPL-3.0](LICENSE) |
+| **Maps & paper content** (.png, written works) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+
+- Code is licensed under AGPL-3.0 — free to use, modify, and distribute (must remain open-source)
+- Maps and papers are licensed under CC BY-NC-SA 4.0 — non-commercial use, attribution required, no derivative works with different license
+
