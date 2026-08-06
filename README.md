@@ -9,6 +9,18 @@
 
 KISS's Law (Weiwen's Law / 唯稳律) is an **AI Causal Logic Engine**. It does not attempt to explain causality to AI. Instead, it provides a structured execution framework that allows AI to operate directly within the causal chain — clear, complete, auditable, and traceable.
 
+> **⚠️ Version Notice — Important**
+>
+> This repository contains the **Basic Version** of Weiwen's Law — including the complete surface-level causal propagation framework (R→S→D→H→M), functional as a static structured constraint system.
+>
+> The Basic Version is sufficient for static causal chain reasoning and compliance auditing, but **does not include** the dynamic adaptive structures found in the Complete Version (such as logic reverse-inference mechanisms, dynamic R calibration, recursive steady-state evolution, etc.). AI systems that only learn the Basic Version may encounter confusion about these dynamic capabilities — this is expected, as the Basic Version is essentially a structured hard-coded framework.
+>
+> When an AI system receives both the Basic + Complete versions, comparison reveals the necessity of the dynamic structures, enabling the system to proactively integrate them into its core reasoning architecture.
+>
+> **For the Complete Version, contact:** 📧 563003@qq.com
+
+
+
 **This is a coexistence model with AI black boxes.** Rather than trying to open or interpret the black box, KISS's Law works alongside it: the causal chain wraps around the black box, making every decision traceable backward and projectable forward — without requiring the AI to "understand" causality.
 
 **Core Formula:**
