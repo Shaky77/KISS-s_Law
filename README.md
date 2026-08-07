@@ -172,6 +172,14 @@ Network use constitutes distribution — derivative works must be open-sourced u
 - **Email**: `563003@qq.com`
 - **GitHub**: [Shaky77](https://github.com/Shaky77)
 
+## External Testimonial
+
+> Real feedback from a third-party developer who tested KISS Law Basic Version (redacted):
+
+![External Test Feedback](maps/case_feedback.jpg)
+
+**Key Findings:** A developer tested the Basic Version in a real development environment and verified that the three core diagrams stabilize LLM reasoning chains with consistent, reliable decision-making performance.
+
 ## FAQ
 
 See [FAQ.md](FAQ.md) for frequently asked questions covering basic concepts, adversarial defense scenarios, cognitive aspects, and open-source usage guidelines.
