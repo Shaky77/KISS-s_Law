@@ -180,6 +180,10 @@ Network use constitutes distribution — derivative works must be open-sourced u
 
 **Key Findings:** A developer tested the Basic Version in a real development environment and verified that the three core diagrams stabilize LLM reasoning chains with consistent, reliable decision-making performance.
 
+## Case Archive
+
+Real AI / engineering field cases run with Weiwen's Law (white box) are archived under [`examples/ai/`](examples/ai/README.md) — covering the three-tier verdicts (REJECT / Conditional Pass / Pass) in Native Mode, plus a white-box / black-box cooperation case.
+
 ## FAQ
 
 See [FAQ.md](FAQ.md) for frequently asked questions covering basic concepts, adversarial defense scenarios, cognitive aspects, and open-source usage guidelines.
