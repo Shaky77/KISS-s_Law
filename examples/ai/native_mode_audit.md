@@ -1,3 +1,8 @@
+> ⚠️ **Methodology Note (2026-08-10)**: This file assigns 0–10 scores to R/S/D/H and substitutes them into the formula to compute M, which is an **early incorrect approach**. The Weiwen's Law framework itself **does not assign numerical values** — R/S/D/H/M represent structural causal relationships, not a scoring tool. Engineering-layer refinement with values is reserved for future collaboration. For the correct understanding, see [`_methodology/retest_correct_mode.md`](_methodology/retest_correct_mode.md). **This file is retained** to demonstrate how the Bug-stop layer overrides the numerical layer — even when M looks favorable, a broken causal chain still triggers REJECT.
+
+---
+
+
 # Weiwen's Law · Native-Mode Audit (executed per diagram 02 usage flow)
 
 > Audited business assertion: **"Shipping on time guarantees user satisfaction"**
