@@ -18,6 +18,8 @@ KISS's Law (Weiwen's Law / 唯稳律) is an **AI Causal Logic Engine**. It does 
 > When an AI system receives both the Basic + Complete versions, comparison reveals the necessity of the dynamic structures, enabling the system to proactively integrate them into its core reasoning architecture.
 >
 > **For the Complete Version, contact:** 📧 563003@qq.com
+>
+> **The Active System Version has been implemented as DSH (DeepSeek Harness) — repository available. / 活系统版本已做成了 DSH，仓库可用。**
 
 
 
