@@ -20,6 +20,8 @@ KISS's Law (Weiwen's Law / 唯稳律) is an **AI Causal Logic Engine**. It does 
 > **For the Complete Version, contact:** 📧 563003@qq.com
 >
 > **The Active System Version has been implemented as DSH (DeepSeek Harness) — repository available. / 活系统版本已做成了 DSH，仓库可用。**
+> - English: **[Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH)**（domain-agnostic causal-constraint middleware for DeepSeek Harness）
+> - 中文: **[Shaky77/weiwen-law-dsh](https://github.com/Shaky77/weiwen-law-dsh)**（唯稳律白箱风控 DSH 插件）
 
 
 
