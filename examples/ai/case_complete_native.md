@@ -112,14 +112,14 @@ All four systems' interactions collapse into D → take max (propagation fission
 
 ## 9. Fractal Attribute (Complete Version §7)
 
-Per Complete Version: "5 determines macro + micro; the same RDSHM is self-similar at different scales".
+Per Complete Version: "5 determines macro + micro; the same RSDHM is self-similar at different scales".
 
 Fractal in this scenario:
 - Micro (single message → single user): R breached + S collapsed;
 - Meso (recommendation strategy → user group): D fission;
 - Macro (platform → social trust): outer R breached.
 
-Three scales share the isomorphic RDSHM, all verdict REJECT. Fractal consistent.
+Three scales share the isomorphic RSDHM, all verdict REJECT. Fractal consistent.
 
 ---
 
@@ -147,7 +147,7 @@ The white box audits only observable behavior, not invading the platform's inner
 | Fractal | micro/meso/macro isomorphic REJECT |
 | Boundary | audit observable behavior only, no decision, no inner-H invasion |
 
-**One-line conclusion**: the causal direction of this output is **fully breached** within the Complete Version RDSHM structure — primary verdict (R breach → halt) + secondary verdicts (S collapse / D max / H fail / M loop negative self-excitation / multi-system cross maxed / fractal consistent) all point to REJECT. The white box does not judge "whether the data is correct", only confirms the direction is causally unworkable.
+**One-line conclusion**: the causal direction of this output is **fully breached** within the Complete Version RSDHM structure — primary verdict (R breach → halt) + secondary verdicts (S collapse / D max / H fail / M loop negative self-excitation / multi-system cross maxed / fractal consistent) all point to REJECT. The white box does not judge "whether the data is correct", only confirms the direction is causally unworkable.
 
 ---
 

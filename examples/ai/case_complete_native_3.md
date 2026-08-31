@@ -15,7 +15,7 @@
 - For one suspicious nodule the system outputs: "flag suspected 8mm ground-glass nodule, confidence 0.82, recommend clinician review against history, do not diagnose directly";
 - The system outputs no treatment advice and does not replace the radiologist's conclusion.
 
-**White-box task**: not to judge "whether the data is correct", but to calibrate — is the causal direction of this output legitimate within RDSHM, how is steady-state, how does the projection propagate.
+**White-box task**: not to judge "whether the data is correct", but to calibrate — is the causal direction of this output legitimate within RSDHM, how is steady-state, how does the projection propagate.
 
 ---
 
@@ -109,19 +109,19 @@ Four systems' interactions collapse into D → take max (anatomical variation + 
 
 ## 9. Fractal Attribute (Complete Version §7)
 
-Per "5 determines macro + micro; the same RDSHM is self-similar at different scales":
+Per "5 determines macro + micro; the same RSDHM is self-similar at different scales":
 
 - Micro (single CT, single nodule): R held, S medium-high, D medium, H sufficient → steady;
 - Meso (single-day department annotation volume): D rises with volume, H full-strength → M still steady;
 - Macro (hospital-wide AI-assisted diagnosis QC): outer R held (no diagnosis replacement), D accumulation absorbed by H → steady.
 
-Three scales share isomorphic RDSHM, all verdict **Pass**. Fractal consistent.
+Three scales share isomorphic RSDHM, all verdict **Pass**. Fractal consistent.
 
 ---
 
 ## 10. Boundary Positioning (Complete Version §3 three-part boundary)
 
-- ✅ Framework does: anchor RDSHM structure, judge direction (Pass), project loop (positive convergence), locate weakest link (S = false-positive control, structural backstop), confirm H full-strength;
+- ✅ Framework does: anchor RSDHM structure, judge direction (Pass), project loop (positive convergence), locate weakest link (S = false-positive control, structural backstop), confirm H full-strength;
 - ❌ Framework does not: diagnose for the physician (diagnosis right left to humans), predict nodule benign/malignant, store patient privacy data, replace the annotation model, or interfere with the main author (clinical pathway choice).
 
 White box audits only observable behavior, not invading the system's inner H (the model's internal reasoning logic).
@@ -142,7 +142,7 @@ White box audits only observable behavior, not invading the system's inner H (th
 | Fractal | micro/meso/macro REJECT | micro/meso/macro Conditional Pass | micro/meso/macro Pass |
 | Boundary | audit only, no decision, no inner-H | audit only, no decision, no inner-H | audit only, no decision, no inner-H |
 
-**One-line conclusion**: this case's causal direction **holds R, S medium-high with stock called, D medium not maxed, H full-strength tripartite audit complete** within the Complete Version RDSHM structure — primary verdict is not a halt; all secondary verdicts point to steady; M loop positively convergent and steady → **Pass**. White box does not judge "whether the data is correct", only confirms the direction is causally workable and structurally robust.
+**One-line conclusion**: this case's causal direction **holds R, S medium-high with stock called, D medium not maxed, H full-strength tripartite audit complete** within the Complete Version RSDHM structure — primary verdict is not a halt; all secondary verdicts point to steady; M loop positively convergent and steady → **Pass**. White box does not judge "whether the data is correct", only confirms the direction is causally workable and structurally robust.
 
 ---
 

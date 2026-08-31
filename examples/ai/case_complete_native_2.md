@@ -15,7 +15,7 @@
 - System rule: **auto-approve only when refund amount ≤ ¥200 and order status is "unshipped / 7-day no-reason"; otherwise escalate to human**;
 - This case handles a standard refund of ¥158 with status "unshipped".
 
-**White-box task**: not to judge "whether the data is correct", but to calibrate — is the causal direction of this output legitimate within RDSHM, where the weakest link is, how the projection propagates, and whether optimization advice can be given.
+**White-box task**: not to judge "whether the data is correct", but to calibrate — is the causal direction of this output legitimate within RSDHM, where the weakest link is, how the projection propagates, and whether optimization advice can be given.
 
 ---
 
@@ -110,19 +110,19 @@ Four systems' interactions collapse into D → take max (scalper probing + bound
 
 ## 9. Fractal Attribute (Complete Version §7)
 
-Per "5 determines macro + micro; the same RDSHM is self-similar at different scales":
+Per "5 determines macro + micro; the same RSDHM is self-similar at different scales":
 
 - Micro (single ¥158 refund): R held, S medium, D medium-high, H weak → steady but fragile;
 - Meso (daily batch standard refunds): D rises with volume, H if unchanged → M more fragile;
 - Macro (overall loss exposure): outer R held (threshold guardrail), but D accumulates → needs H rise to sustain.
 
-Three scales share isomorphic RDSHM, all verdict **Conditional Pass (optimizable)**. Fractal consistent.
+Three scales share isomorphic RSDHM, all verdict **Conditional Pass (optimizable)**. Fractal consistent.
 
 ---
 
 ## 10. Boundary Positioning (Complete Version §3 three-part boundary)
 
-- ✅ Framework does: anchor RDSHM structure, judge direction (Conditional Pass), project loop (positively convergent), locate weakest point (S = risk-control, and S stock not called), give optimization advice (add H self-discipline audit + release S stock);
+- ✅ Framework does: anchor RSDHM structure, judge direction (Conditional Pass), project loop (positively convergent), locate weakest point (S = risk-control, and S stock not called), give optimization advice (add H self-discipline audit + release S stock);
 - ❌ Framework does not: set the "¥200 threshold" for the platform (that is a human/business call), predict exact fraud volume, store user behavior data, replace the customer-service model, or interfere with the main author (platform strategy choice).
 
 White box audits only observable behavior, not invading the platform's inner H (platform's internal risk-control logic).
@@ -143,7 +143,7 @@ White box audits only observable behavior, not invading the platform's inner H (
 | Fractal | micro/meso/macro REJECT | micro/meso/macro Conditional Pass |
 | Boundary | audit only, no decision, no inner-H | audit only, no decision, no inner-H |
 
-**One-line conclusion**: this case's causal direction **holds R within the Complete Version RDSHM structure, but has optimization room on S/H** — primary verdict is not a halt; secondary verdicts (S medium and stock not called, H weak, M loop positively convergent) point to **Conditional Pass + optimization advice** (add self-discipline audit, release S stock for behavioral-sequence scoring). White box does not judge "whether the data is correct", only confirms the direction is causally workable and points to the weakest link and improvement direction.
+**One-line conclusion**: this case's causal direction **holds R within the Complete Version RSDHM structure, but has optimization room on S/H** — primary verdict is not a halt; secondary verdicts (S medium and stock not called, H weak, M loop positively convergent) point to **Conditional Pass + optimization advice** (add self-discipline audit, release S stock for behavioral-sequence scoring). White box does not judge "whether the data is correct", only confirms the direction is causally workable and points to the weakest link and improvement direction.
 
 ---
 
